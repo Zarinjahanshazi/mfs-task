@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
         {
 path:"/",
 element:<Home/>,
-loader:()=>fetch(`https://scic-server-kappa.vercel.app/products`)
+loader:()=>fetch(`https://mfs-server-pink.vercel.app/products`)
         }
      
       ]
